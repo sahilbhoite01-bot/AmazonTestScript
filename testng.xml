@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon India QA Automation Suite" verbose="1">
+
+    <test name="All Tests">
+        <classes>
+            <class name="tests.SearchTest"/>
+            <class name="tests.ProductTest"/>
+            <class name="tests.CartTest"/>
+            <class name="tests.CheckoutTest"/>
+            <class name="tests.ExploratoryTest"/>
+            <class name="tests.CrossBrowserTest"/>
+        </classes>
+    </test>
+
+</suite>
